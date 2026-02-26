@@ -1,0 +1,84 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(99, 194, 142);
+  color:rgba(0, 0, 0, 0.872);
+  font-size:2vh;
+  font-family: DynaPuff;
+}
+
+.headerNameAuthor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:4vh;
+}
+.profilePic{
+  object-position: 60% 40%;
+  border-radius: 200px;
+  height:100px;
+  width:100px;
+  object-fit: cover;
+  border-radius: 100px;
+  margin-left:10px;
+}
+.headerNavBar{
+  display:flex;
+  justify-content: space-around;
+  border:solid;
+  border-width: 1px;
+  font-size:2vh;
+}
+.subjectBody{
+  margin:50px;
+}
+.formContainer{
+  display: flex;
+  justify-content: center;
+}
+.form{
+  border:solid;
+  border-width: 2px;
+  text-align: center;
+  padding-bottom:50px;
+  margin-bottom:20%;
+  font-size:2vh;
+  width:50%;
+}
+.form input{
+  height:3vh;
+  background-color: rgb(91, 182, 132);
+  border-style:dotted;
+}
+.form button{
+  cursor:pointer;
+  background-color: rgb(53, 173, 107);
+  border:none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px rgb(54, 47, 47);
+  color:whitesmoke;
+  padding:8px;
+  font-weight: bold;
+}
+.form button:hover{
+  background-color: rgb(43, 136, 85);
+}
+.form button:active{
+  background-color: rgb(91, 182, 132);
+  box-shadow: 0 0 0;
+}
+.footerNavBar{
+  margin-top:50px;
+  display: flex;  
+  align-items: center;  
+  justify-content:space-around;
+  font-size:2vh;
+}
+
+.footer{
+  display: flex;  
+  align-items: center;  
+  justify-content:space-around;
+  font-size:2vh;
+}
